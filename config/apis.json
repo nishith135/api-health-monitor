@@ -1,0 +1,26 @@
+[
+  {
+    "id": "jsonplaceholder-post-1",
+    "name": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts/1",
+    "interval": 30,
+    "expectedStatus": 200,
+    "timeout": 5000
+  },
+  {
+    "id": "github-api-root",
+    "name": "GitHub API",
+    "url": "https://api.github.com",
+    "interval": 60,
+    "expectedStatus": 200,
+    "timeout": 5000
+  },
+  {
+    "id": "open-library-books",
+    "name": "Open Library",
+    "url": "https://openlibrary.org/api/books",
+    "interval": 45,
+    "expectedStatus": 200,
+    "timeout": 5000
+  }
+]
